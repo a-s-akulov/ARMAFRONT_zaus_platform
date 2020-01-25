@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Project name="CH View Distance">
+    <Package name="Main">
+        <Key ID="STR_chvd_title">
+            <Original>View Distance Settings</Original>
+            <Russian>Настройки Дальности Обзора</Russian>
+            <German>Sichtweiten Einstellung</German>
+            <French>Conf. de la distance de vue</French>
+        </Key>
+        <Key ID="STR_chvd_foot">
+            <Original>Infantry:</Original>
+            <Russian>Пешком:</Russian>
+            <German>FUß:</German>
+			<French>Pied:</French>
+        </Key>
+        <Key ID="STR_chvd_car">
+            <Original>Car:</Original>
+            <Russian>Машина:</Russian>
+            <German>Fahrzeug:</German>
+			<French>Voiture:</French>
+        </Key>
+        <Key ID="STR_chvd_air">
+            <Original>Air:</Original>
+            <Russian>Воздух:</Russian>
+            <German>Flugzeug:</German>
+			<French>Airs:</French>
+        </Key>
+		<Key ID="STR_chvd_UAV">
+            <Original>Drone:</Original>
+            <Russian>БПА:</Russian>
+        </Key>
+        <Key ID="STR_chvd_object">
+            <Original>Objects:</Original>
+            <Russian>Объекты:</Russian>
+            <German>Objekt:</German>
+			<French>Objet:</French>
+        </Key>
+        <Key ID="STR_chvd_grass">
+            <Original>Grass settings:</Original>
+            <Russian>Трава:</Russian>
+        </Key>
+        <Key ID="STR_chvd_sync">
+            <Original>Sync with view:</Original>
+            <Russian>Синхронизировать:</Russian>
+        </Key>
+		<Key ID="STR_chvd_hide">
+            <Original>Hide</Original>
+            <Russian>Скрыть</Russian>
+        </Key>
+		<Key ID="STR_chvd_SaveName">
+            <Original>SAVE NAME</Original>
+            <Russian>ИМЯ СЛОТА</Russian>
+        </Key>
+		<Key ID="STR_chvd_save">
+            <Original>Save</Original>
+            <Russian>Сохранить</Russian>
+        </Key>
+		<Key ID="STR_chvd_addaction">
+            <Original>Settings</Original>
+            <Russian>Настройки</Russian>
+        </Key>
+		<Key ID="STR_chvd_saves">
+            <Original>Open Save Manager</Original>
+            <Russian>Сохранить/Загрузить</Russian>
+        </Key>
+		<Key ID="STR_chvd_saveManager">
+            <Original>Save Мanager</Original>
+            <Russian>Сохранённые настройки</Russian>
+        </Key>
+        <Key ID="STR_chvd_low">
+            <Original>Low</Original>
+            <Russian>Низкая</Russian>
+            <German>Niedrig</German>
+			<French>Bas</French>
+        </Key>
+        <Key ID="STR_chvd_standart">
+            <Original>Standard</Original>
+            <Russian>Стандартная</Russian>
+            <German>Standart</German>
+			<French>Standart</French>
+        </Key>
+        <Key ID="STR_chvd_high">
+            <Original>High</Original>
+            <Russian>Высокая</Russian>
+            <German>Hoch</German>
+			<French>Elevé</French>
+        </Key>
+		<Key ID="STR_chvd_TooltipInf">
+            <Original>View Distance while on foot</Original>
+            <Russian>Дальность видимости пешком</Russian>
+        </Key>
+		<Key ID="STR_chvd_TooltipCar">
+            <Original>View distance while in a ground vehicle</Original>
+            <Russian>Дальность видимости в наземном транспорте</Russian>
+        </Key>
+		<Key ID="STR_chvd_TooltipAir">
+            <Original>View distance while in an aircraft</Original>
+            <Russian>Дальность видимости в воздушном транспорте</Russian>
+        </Key>
+		<Key ID="STR_chvd_TooltipUAV">
+            <Original>View distance while operating a UAV/UGV</Original>
+            <Russian>Дальность видимости в БПА</Russian>
+        </Key>
+		<Key ID="STR_chvd_TooltipObj">
+            <Original>Object rendering distance</Original>
+            <Russian>Дальность отображения объектов</Russian>
+        </Key>
+        <Key ID="STR_chvd_openSettings">
+            <Original>settings</Original>
+            <Russian>настройки</Russian>
+            <German>settings</German>
+			<French>configuration</French>
+        </Key>
+        <Key ID="STR_chvd_objViewDistance">
+            <Original>Objects settings:</Original>
+            <Russian>Настройки объектов:</Russian>
+        </Key>
+		<Key ID="STR_chvd_saveslot">
+            <Original>Save slot</Original>
+            <Russian>Пустой слот</Russian>
+        </Key>
+    </package>
+</Project>
+
+<Package name="Bee_EarplugsScript">
+	<Key ID="Ear_On">
+		<Original>Ear On</Original>
+		<English>Ear On</English>
+		<Russian>Беруши одеты</Russian>
+	</Key>
+	<Key ID="Ear_Off">
+		<Original>Ear Off</Original>
+		<English>Ear Off</English>
+		<Russian>Беруши сняты</Russian>
+	</Key>
+</package>
+
+<Package name="Kat_QuestDiag">
+	<Key ID="QuestNextBtn">
+			<Original>Yes</Original>
+			<English>Yes</English>
+			<Russian>Да</Russian>
+	</Key>
+	<Key ID="QuestCancelBtn">
+			<Original>No</Original>
+			<English>No</English>
+			<Russian>Нет</Russian>
+	</Key>
+	<Key ID="QuestHeadline">
+			<Original>Confirm</Original>
+			<English>Confirm</English>
+			<Russian>Подтверждение</Russian>
+	</Key>
+	<Key ID="QuestHeadline">
+			<Original>Confirm</Original>
+			<English>Confirm</English>
+			<Russian>Подтверждение</Russian>
+	</Key>
+	<Key ID="QuestQuestion">
+			<Original>Are you sure to do this?</Original>
+			<English>Are you sure to do this?</English>
+			<Russian>Уверены, что хотите сделать это?</Russian>
+	</Key>
+</package>
+
+<Project name="Taw vd">
+    <Key ID="Tow_High_Distance">
+        <Original>The tow ropes are too short. Move vehicle closer.</Original>
+        <Russian>Буксировочный трос не дотягивается.</Russian>
+    </Key>
+
+    <Key ID="Tow_To_Locked">
+        <Original>Cannot attach tow ropes to locked vehicle.</Original>
+        <Russian>Нельзя прикрепить буксирный трос к запертой технике.</Russian>
+    </Key>
+
+    <Key ID="Tow_In_Safe_Zone">
+        <Original>Cannot attach tow ropes in safe zone.</Original>
+        <Russian>Нельзя прикрепить буксирный трос в безопасной зоне.</Russian>
+    </Key>
+
+    <Key ID="Tow_Take_Locked">
+        <Original>Cannot take tow ropes from locked vehicle.</Original>
+        <Russian>Нельзя взять трос из запертой техники.</Russian>
+    </Key>
+
+    <Key ID="Tow_Take_Safe_Zone">
+        <Original>Cannot take tow ropes in safe zone.</Original>
+        <Russian>Нельзя взять трос в безопасной зоне.</Russian>
+    </Key>
+
+    <Key ID="Tow_Put_Locked">
+        <Original>Cannot put away tow ropes in locked vehicle.</Original>
+        <Russian>Нельзя убрать трос в запертую технику.</Russian>
+    </Key>
+
+    <Key ID="Tow_Put_Safe_Zone">
+        <Original>Cannot put away tow ropes in safe zone.</Original>
+        <Russian>Нельзя положить трос в безопасной зоне.</Russian>
+    </Key>
+
+    <Key ID="Tow_PickUp_Locked">
+        <Original>Cannot pick up tow ropes from locked vehicle.</Original>
+        <Russian>Нельзя подобрать трос из запертой техники.</Russian>
+    </Key>
+
+    <Key ID="Tow_PickUp_Safe_Zone">
+        <Original>Cannot pick up tow ropes in safe zone.</Original>
+        <Russian>Нельзя подобрать трос в безопасной зоне.</Russian>
+    </Key>
+
+    <Key ID="Deploy_Tow">
+        <Original>Deploy Tow Ropes</Original>
+        <Russian>Подготовить буксировочный трос</Russian>
+    </Key>
+
+    <Key ID="Destroy_Tow">
+        <Original>Put Away Tow Ropes</Original>
+        <Russian>Убрать трос</Russian>
+    </Key>
+
+    <Key ID="Attach_Tow">
+        <Original>Attach To Tow Ropes</Original>
+        <Russian>Прикрепить трос</Russian>
+    </Key>
+
+    <Key ID="Drop_Tow">
+        <Original>Drop Tow Ropes</Original>
+        <Russian>Бросить буксировочный трос</Russian>
+    </Key>
+
+    <Key ID="PickUp_Tow">
+        <Original>Pick up Tow Ropes</Original>
+        <Russian>Подобрать буксировочный трос</Russian>
+    </Key>
+</Project>
+
+<Package name="KAT_menuEngine">
+
+    <Key ID="STR_fail_default_head">
+        <Original>Mission failed!</Original>
+        <Russian>Миссия провалена!</Russian>
+    </Key>
+    <Key ID="STR_fail_default_description">
+        <Original>You have not completed the tasks properly!</Original>
+        <Russian>Вы не выполнили поставленные задачи должным образом!</Russian>
+    </Key>
+
+    <Key ID="STR_complete_default_head">
+        <Original>Mission complete!</Original>
+        <Russian>Миссия выполнена!</Russian>
+    </Key>
+    <Key ID="STR_complete_default_description">
+        <Original>You have successfully completed all tasks!&lt;br /&gt;Congratulations!</Original>
+        <Russian>Вы успешно выполнили все поставленные задачи!&lt;br /&gt;Поздравляем с победой!</Russian>
+    </Key>
+
+	<Key ID="STR_sideBlocked_head">
+        <Original>This side is blocked</Original>
+        <Russian>Эта сторона заблокирована</Russian>
+    </Key>
+    <Key ID="STR_sideBlocked_description">
+        <Original>Zeus has blocked this side for selection at the moment. Choose another.</Original>
+        <Russian>Зевс заблокировал для выбора эту сторону на данный момент. Выберите другую.</Russian>
+    </Key>
+
+    <Key ID="ME_mainMenu_default">
+        <Original>&lt;t shadow='2'&gt;Main menu</Original>
+        <Russian>&lt;t shadow='2'&gt;Глав. меню</Russian>
+    </Key>
+    <Key ID="ME_postfix_default">
+        <Original>&lt;br /&gt;0 | Back&lt;br /&gt;. | Return to Main menu</Original>
+        <Russian>&lt;br /&gt;0 | Назад&lt;br /&gt;. | Возврат в главное меню</Russian>
+    </Key>
+	<Key ID="ME_postfix_hideMenu">
+        <Original>&lt;br /&gt;. | Hide menu</Original>
+        <Russian>&lt;br /&gt;. | Скрыть меню</Russian>
+    </Key>
+	<Key ID="ME_profileParamsLoaded">
+        <Original>Your personal params are loaded&lt;br/&gt;You can change or restore them in settings</Original>
+        <Russian>Сохраненные ранее параметры загружены&lt;br/&gt;Вы можете изменить или сбросить их в настройках</Russian>
+    </Key>
+
+</Package>
+
+<Package name="Kat_Object_addActions">
+	<Key ID="addActInCarObj">
+			<Original>Put in vehicle</Original>
+			<English>Put in vehicle</English>
+			<Russian>Погрузить в транспорт</Russian>
+	</Key>
+	<Key ID="addActTakeObj">
+			<Original>Take object</Original>
+			<English>Take object</English>
+			<Russian>Поднять объект</Russian>
+	</Key>
+	<Key ID="addActPutDownObj">
+			<Original>Put down object</Original>
+			<English>Put down object</English>
+			<Russian>Положить объект</Russian>
+	</Key>
+	<Key ID="doTookObj">
+			<Original>You took object</Original>
+			<English>You took object</English>
+			<Russian>Вы взяли объект</Russian>
+	</Key>
+	<Key ID="doPutObj">
+			<Original>You put object</Original>
+			<English>You put object</English>
+			<Russian>Вы положили объект</Russian>
+	</Key>
+	<Key ID="noCarObj">
+			<Original>There is no suitable transport nearby</Original>
+			<English>There is no suitable transport nearby</English>
+			<Russian>Рядом нет подходящего транспорта</Russian>
+	</Key>
+	<Key ID="addActFromCarObj">
+			<Original>Unload object from vehicle</Original>
+			<English>Unload object from vehicle</English>
+			<Russian>Выгрузить объект из транспорта</Russian>
+	</Key>
+
+	<Key ID="actInCarObj">
+			<Original>You are loaded object in vehicle</Original>
+			<English>You are loaded object in vehicle</English>
+			<Russian>Вы загрузили объект в транспорт</Russian>
+	</Key>
+	<Key ID="actFromCarObj">
+			<Original>You are unloaded object from vehicle</Original>
+			<English>You are unloaded object from vehicle</English>
+			<Russian>Вы выгрузили объект из транспорта</Russian>
+	</Key>
+	<Key ID="tooManyObj">
+			<Original>You can not carry more then one object for vehicle</Original>
+			<English>You can not carry more then one object for vehicle</English>
+			<Russian>Нельзя перевозить несколько объектов в одном транспорте</Russian>
+	</Key>
+	<Key ID="deadVehObj">
+			<Original>Transport is too damaged, transportation of the object is impossible</Original>
+			<English>Transport is too damaged, transportation of the object is impossible</English>
+			<Russian>Транспорт слишком сильно поврежден, перевозска объекта невозможна</Russian>
+	</Key>
+	<Key ID="isTakenObj">
+			<Original>Someone already carries this object</Original>
+			<English>Someone already carries this object</English>
+			<Russian>Этот объект уже кто-то несёт</Russian>
+	</Key>
+	<Key ID="tooManyInfObj">
+			<Original>You can't carry more then one object</Original>
+			<English>You can't carry more then one object</English>
+			<Russian>Больше одного объекта вы за раз не унесёте</Russian>
+	</Key>
+</package>
